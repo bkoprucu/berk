@@ -4,7 +4,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: 'Your awesome title'
+subtitle: 'Subtitle is here'
+masthead_title: 'Masthead title'
+name: 'Site Name'
 email: your-email@example.com
 author: Berk
 copyright: "Unpublished Work (cleft) 2023-{currentYear} {author}"
@@ -17,8 +20,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: ""
 
-yat:
-  date_format: "%b %d, %Y"
 
 paginate: 10
 
@@ -27,26 +28,83 @@ paginate: 10
 #github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-yat
-#theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+search: true
 
-markdown: kramdown
-kmarkdown:
-  input: GFM
+#markdown: kramdown
+#kmarkdown:
+#  input: GFM
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   # - jemoji
+#   - jekyll-include-cache
+#   # - jekyll-seo-tag
+#   # - jekyll-spaceship
 
+author:
+  name   : "Berk Köprücü"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "Senior Software Engineer, with more than 15 years experience on Java platform."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://berkkoprucu.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bkoprucu"
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://www.linkedin.com/in/koprucu/"
+
+footer:
+  links:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bkoprucu"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 defaults:
+  # _posts
   - scope:
       path: ""
+      type: posts
     values:
-      layout: "post"
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/      
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
