@@ -56,12 +56,18 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:bkoprucu@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bkoprucu"
-    # - label: "LinkedIn"
-    #   icon: "fab fa-fw fa-linkedin"
-    #   url: "https://www.linkedin.com/in/koprucu/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/koprucu/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@marchoftime"
 
 footer:
   links:
