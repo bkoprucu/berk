@@ -22,29 +22,28 @@ favicon: ""
 
 
 paginate: 10
-
-
+paginate_path: /page:num/
+timezone: Europe/Stockholm
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 #markdown: kramdown
 #kmarkdown:
 #  input: GFM
-
-# plugins:
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-gist
-#   - jekyll-feed
-#   # - jemoji
-#   - jekyll-include-cache
-#   # - jekyll-seo-tag
-#   # - jekyll-spaceship
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  # - jemoji
+  # - jekyll-seo-tag
+  # - jekyll-spaceship
 
 author:
   name   : "Berk Köprücü"
@@ -69,9 +68,21 @@ footer:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:bkoprucu@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bkoprucu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/koprucu/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@marchoftime"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://www.stackoverflow.com/koprucu/"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
