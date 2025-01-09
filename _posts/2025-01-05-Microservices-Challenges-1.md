@@ -1,9 +1,9 @@
 ---
-title: "Microservices Challenges: Balancing Costs and Benefits – Part 1"
+title: "Microservices challenges: Balancing costs and benefits – 1"
 published: true
 seo_enabled: true
-description: "Discover key challenges in microservices adoption, from API evolution to team autonomy, and learn strategies to balance costs and benefits effectively."
-excerpt_text: "We’ll explore some challenges on establishing microservices, focusing on common, yet less mentioned problems faced by organizations"
+description: "Common challenges in microservices adoption - Part1: Microservices vs. monolith, shared libraries and microservices"
+excerpt_text: "Some common challenges I've observed—and helped address, when establishing microservices."
 excerpt_image: "/assets/images/posts/2025-01-05-Microservices-Challenges-1/growtika-ZfVyuV8l7WU-unsplash-1.webp"
 excerpt_image_copyright: 'Picture by unsplash.com/@growtika'
 categories: [Engineering Management, Software Architecture]
@@ -11,9 +11,7 @@ tags: [Microservices, API Strategy, Software Team Management]
 hidden: false
 ---
 
-We’ll explore some challenges on establishing microservices, focusing on common, yet less mentioned problems faced by organizations.
-
-Drawn for years of experience, handling of these challenges will bring significant benefits, as I've observed in systems adopting them. You may have dealt with some of them.
+I'll mention some common challenges I've observed—and helped address, when establishing microservices.
 
 
 ## The main reason to use microservices
@@ -22,8 +20,6 @@ Drawn for years of experience, handling of these challenges will bring significa
 
 Other important benefits of microservices, such as easier integration and with external services, or using different technologies on different parts of the system are also worth remembering.
 
-Pros and cons of microservices isn't our main topic - we will continue with the challenges of establishing it. 
-
 
 ## Challenges:
 
@@ -31,12 +27,10 @@ Pros and cons of microservices isn't our main topic - we will continue with the 
 
 Let's remember;
 - Microservices don’t mandate full commitment. Depending on the state and requirements, a system with a mix of microservices and monolithic parts could be optimal for a given domain.
-- Microservices are inherently expensive; they involve multiple processes, containers, virtual machines, pipelines, data source instances, service discovery mechanisms, and more.
+- Microservices are inherently expensive; they involve multiple processes, containers, virtual machines, pipelines, data source instances, service discovery mechanisms, network communication overhead and more.
 
 
 ### Sample scenarios
-
-Here are few scenarios where using microservices might not be optimal.
 
 {%- include image.html url="/assets/images/posts/2025-01-05-Microservices-Challenges-1/monolith_space_odyssey_c.webp" description="Sometimes, embracing a monolith lets you rest easy" title="Sometimes, embracing a monolith lets you rest easy" height="320px" -%}
 
@@ -55,24 +49,23 @@ Strong  interdependency (tight coupling) between services can occur at inception
 
 For a monolithic design to be beneficial and not to bring additional costs when splitting off microservices from it, it should be implemented with a clean design, in a cohesive and modular way. Otherwise, teams may have to rewrite the services from scratch.
 
-To retain the focus of the article, we'll skip other scenarios.
 
 
 ### 2. Shared libraries becoming a coupling point
 
-In the early, monolithic stages of system, sharing reusable code by introducing a library can improve productivity and consistency.
+In the early, monolithic stages of system, sharing reusable code by introducing a library is a common practice, improving productivity and consistency.
 
-When applied to a microservices architecture, these libraries tend to become a common coupling points between services, compromising team autonomy.
+When applied to a microservices architecture, these libraries may become a common coupling points between services, compromising team autonomy.
 
 {%- include image.html url="/assets/images/posts/2025-01-05-Microservices-Challenges-1/kelly-ziesenis-carter-unsplash-cropped.webp" description="Your library without a clear owner may become a problem" title="Photo by Kelly Ziesenis Carter" -%}
 
 > Clear ownership of services is crucial when establishing microservices.
 
-Over time, with multiple teams making changes, ownership of libraries may become ambiguous. To avoid disrupting other teams work, developers may choose not to modify existing code, only add new ones, which leads to a bloated codebase.
+Over time, with multiple teams making changes, ownership of these libraries may become ambiguous. Since changing or removing existing code from them can disrupt other teams' work, only new code gets added, leading to a bloated codebase.
 
-On top of that, transient dependencies of libraries may lead to dependency conflicts, getting in the way of upgrades and adoption of different technologies. Constantly adding new code, but never removing it accumulates old dependencies, which grows the issue further.  
+On top of that, transient dependencies of libraries may lead to dependency conflicts, getting in the way of upgrades and adoption of different technologies. Old code causes accumulation of old dependencies, feeding the issue.
 
-This can also complicate working with external providers; should they depend on the library, or should the library adapt to their API changes over time?
+These libraries can also complicate working with external providers; should they depend on the library, or should the library adapt to their API changes over time?
 
 All these issues undermine [the main benefit of using microservices](#the-main-reason-to-use-microservices "Enabling multiple teams to develop, test, and deploy independently").
 

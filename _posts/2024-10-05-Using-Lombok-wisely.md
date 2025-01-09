@@ -4,8 +4,8 @@ seo_enabled: true
 description: "Risks of using Lombok"
 excerpt_text: "Should you use Lombok? If yes, to which extend? Like any tool, Lombok can be useful or misused. Misuse of it is probably what makes Lombok polarizing..."
 excerpt_image: /assets/images/posts/2024-10-Using-Lombok-Wisely/banner-lombok.webp
-categories: [Programming]
-tags: [Java, Lombok, Software Team Management]
+categories: [Engineering Management, Programming]
+tags: [Java, Lombok]
 redirect_from: "/24/9/Risks-Of-Using-Lombok"
 ---
 
@@ -49,7 +49,18 @@ While some annotations can streamline development, others, like `@SneakyThrows` 
 Lombok leaves it to the developers to assess the value of each annotation. This can lead to unproductive debates or longer review times. Since the purpose of Lombok is to boost productivity, it is worth reflecting on these discussions.
 
 One solution can be to align the team on a common approach by having guidelines, such as "We are not using experimental features of Lombok", or encouraging deeper understanding of the tool.
-Alternatives like [AutoValue](https://github.com/google/auto) or [Immutables](https://immutables.github.io/) can also be considered.
+Alternatives like [AutoValue](https://github.com/google/auto), [Immutables](https://immutables.github.io) or (my favorite) [record-builder](https://github.com/Randgalt/record-builder)  can also be considered.
+
+
+## Did we consider compatibility with future Java versions?
+
+Recent versions of Java is improving on integrity. This means that functionalities using the back doors of the platform are either no more allowed or provided with safer alternatives (like `sun.misc.Unsafe` replaced by `VarHandle`, `ByteBuffer` etc).
+
+However, Lombok works by changing the abstract syntax tree (AST), which is not allowed by the Java Language Specification. 
+
+Considering that Java development team is [not fond of Lombok](https://www.google.com/search?q=brian+goetz+on+lombok), it may be wise to expect that later versions of Java to not provide a way for Lombok to continue working.
+
+When the time comes, using [delombok](https://projectlombok.org/features/delombok) may be necessary to remove it. Will we end up with a bloated codebase, if it has been overused? Would we have a better design and long term productivity if we consider safer alternatives early on? 
 
 
 ## Are multiple code manipulation tools in use?
@@ -83,5 +94,3 @@ This applies to tools like Lombok, as well as the choice of programming language
 We should also remember that Java was designed for improving industrial application development in teams, by addressing the challenges they were facing with programming languages like C++ at the time. To achieve this, some features found in other languages were intentionally omitted, and some verbosity is introduced. This philosophy continues to guide the platform today.
 
 Not using Lombok won't improve the design, but misusing or overusing it can hinder productivity and manageability.
-
-I hope this article can help with finding the right balance for your team and project.
