@@ -11,22 +11,30 @@ tags: [Microservices, API Strategy, Team Autonomy]
 hidden: true
 ---
 
-We’ll explore some common challenges organizations face when implementing microservices. These insights, drawn from years of experience, are practices that are sometimes postponed during the early stages. When addressed later, they bring significant benefits.
-
-
-## The main reason to Use microservices
-
-Microservices architecture is primarily a solution to a management challenge: improving organizational scalability adn flexibility. It achieves that by enabling multiple teams to develop, test, and **deploy** independently.
-
-While microservices also allow the use of different technologies on different parts of the system and bring other advantages, we will focus on common challenges organizations face when adopting this architecture.
-
-## Perks of microservices adoption
+We’ll continue
 
 
 ### 3. Missing distributed tracing
+
+The cost of missing distributed tracing is 
+
+- Longer troubleshooting times.
+- Missed inefficient API calls  
+- Longer onboarding period
+- 
+
 // TODO
 
+Original team worked on implementing the system in microservices knows it intimately. They know by heart, how a particular kind of request flows thorough the services, they know where to look, if a problem occurs.
+
+At this stage, distributed tracing (filtering logs across services for a particular request) may be considered as something optional, since it doesn't seem to add direct value to the business.
+
+Later, when multiple teams add more services and functionalities, map of the system may become harder to     
+When a problem occurs, which (logs of) services to look, they know how a particular kind of request flows thorough the web of services, where to add a new functionality. Implementing distributed tracing may seem as a low priority task, since it isn't something that adds a direct value to the business. 
+
 ### 4. Missing API Evolution strategy / system
+As mentioned earlier, stable API is the backbone of microservices architecture, yet
+
 // TODO
 
 ### 5. Heavy usage of synchronous architecture (or under utilizing event driven )
