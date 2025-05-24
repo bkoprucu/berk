@@ -8,99 +8,147 @@ permalink: "/other/cats/feeding.html"
 sidebar: [article-menu]
 ---
 
-Here is quick info for how to take care of Pamuk and Kucuk:
+<table>
+  <tr style="vertical-align: top">
+    <td>{%- include image.html url="/assets/images/posts/cat-sitting/pamuk.webp" -%}</td>
+    <td style="padding: 0 10px 0 20px; line-height: 1.5">
+      <h3>Pamuk</h3>
+      Male, 15 yo.<br>
+      Confident and smart.<br>
+      Doesn't like strangers, loves only me.<br>
+      Likes eating, going out, playing with Kücük.<br>
+      Has asthma and loss of teeth.<br>
+      Won't let Kücük eat, has to be fed separately.
+    </td>
+  </tr>
+  <tr style="vertical-align: top">
+     <td>{%- include image.html url="/assets/images/posts/cat-sitting/kucuk.webp" -%}</td>
+     <td style="padding: 0 10px 0 20px; line-height: 1.5">
+        <h3>Kücük</h3>
+        Female, 12 yo.<br>
+        Timid, never gets aggressive.<br>
+        Traumatized from her stray times.<br>
+        Likes dry food, affection, getting brushed.<br>
+        Hides under blankets or under the bed.<br>
+        Becomes lovely after she overcomes her fear.<br>
+        Needs to be alone in closed room to eat in piece.
+     </td>
+  </tr>
+</table>
 
-
-### Pamuk
-![Pamuk](/assets/images/posts/cat-sitting/pamuk.webp)
-
-Male. Aware of everything. Only likes to be petted by me. Likes eating, going out.
-
-### Küçük
-![Kucuk](/assets/images/posts/cat-sitting/kucuk.webp "Küçük")
-
-Female, shy, never gets aggressive. Likes dry food, affection, getting brushed.
 
 ## Dangers
 
 ### Blankets
 
-Küçük sleeps under blankets. Sitting on them without checking can hurt:
+Küçük sleeps under blankets. Sitting on them without checking may hurt:
 
 {%- include image.html url="/assets/images/posts/cat-sitting/kucuk_duvet.webp" description="For most of the time, paws won't be visible" height="350px" -%}
 
+### Stove
 
-### Being Locked Outside
+They jump on it and may accidentally turn it on, potentially burn their paws.
 
-You may leave the window open after feeding in the evening. To prevent window getting closed:
+Pan handle should be blocking the switch:
 
-Place the half ball on the corner:
+{%- include image.html url="/assets/images/posts/cat-sitting/stove.webp" description="Handle blocking the switch" height="350px" -%}
 
-![window](/assets/images/posts/cat-sitting/window.webp)
+[//]: # (### Being Locked Outside)
 
-Adjust the lever, to make sure window won't be closed by a drift:
+[//]: # ()
+[//]: # (You may leave the window open after feeding in the evening. To prevent it from getting closed:)
 
-![](//www.youtube.com/watch?v=1iZoru6Wl-g?width=700&height=400)
+[//]: # ()
+[//]: # (Place the half ball on the corner:)
 
-You may push the kitchen door, leave a small gep, so they can open it, and you can retain the heat inside.
+[//]: # ()
+[//]: # (![window]&#40;/assets/images/posts/cat-sitting/window.webp&#41;)
 
-## Feeding
+[//]: # ()
+[//]: # (Adjust the lever, to prevent a drift from closing it:)
 
-**Follow these instructions to prevent Pamuk from eating Kucuk's food:** 
+[//]: # ()
+[//]: # (![]&#40;//www.youtube.com/watch?v=1iZoru6Wl-g?width=700&height=400&#41;)
 
-- In the morning, make sure that they are both inside and close the window.
+[//]: # ()
+[//]: # (To retain the heat inside, you may push the kitchen door to leave a small gap, allowing them to open it.)
 
-- Take one pouch from this box:
+[//]: # ()
+
+## Daily Routine
+
+Feel free to enter the apartment with your shoes. Cat's will make a mess anyway. I'll do a deep cleaning when I'm back.
+
+### Litter Box
+
+For couple days, jsut throwing the poop to the toilet bowl and stirring the litter should be enough.
+
+Wooden pallets stuck on the poop dissolve into dust, won't clog the toilet.
+
+The litter in the box should be shallow, only couple centimeters deep.
+
+**Cleaning the litter box:**
+
+The box has a bottom tray, which needs cleaning after three days, or when the level of litter dust in the bottom tray reaches the mesh (of top tray).
+
+I pour thin layer of clumping litter as a substrate to the bottom tray to prevent smell. You may take away the clumpy parts in the bottom tray, and put in a paper bag I've left in the bathroom. 
+
+**This clumping litter shouldn't go into the toilet.** 
+ 
+
+
+### Feeding
+
+**Tips below may help with keeping Pamuk from eating Kucuk's food.** 
+
+One pouch for both of them, since Kucuk doens't eat much wet food:
 
 ![](/assets/images/posts/cat-sitting/food_pouch.jpeg)
 
+You may use a new set of small flat plates each time. 
 
-For wet food, You may use flat plates.
-
-![](/assets/images/posts/cat-sitting/food_dishes.jpg)
-
-Pamuk may spill some food, a piece of napkins under the plate can help.
-
-Pamuk eats more wet food, sometimes I give ~70% of the pouch to Pamuk, and ~30% to Kucuk:
+Pamuk eats more wet food, so I share the pouch ~70% to Pamuk, ~30% to Kucuk:
 
 {%- include image.html url="/assets/images/posts/cat-sitting/wet_food_distribution.jpg" description="Wet food distribution. Pamuk eats ~70%, Kucuk ~30%" -%}
 
-After they're done with the wet food, I give Kucuk more kibble than Pamuk:
 
-{%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.jpg" description="Dry food distribution. Pamuk eats ~10%, Kucuk ~90%" -%}
+I've put dust of Pamuk's asthma medicine pills in small glasses, shown in the picture below. You may pour one of it on his food.
 
+{%- include image.html url="/assets/images/posts/cat-sitting/pamuk_medicine_glasses.webp" description="Pamuk's asthma medicine pill dust in each glass" -%}
 
-Pamuk eats Kucuk's food. To prevent this you need to separate them:
+Optionally, a napkin under Pamuk's plate may help with his spilling habit. 
 
-- Put Pamuk's food under kitchen table first.
-- While he is eating, put Kucuk's food in the bedroom, under the chair.
-- Close the bedroom or kitchen door to separate them and leave Kucuk alone. She may not eat while you're in there.
-- Pamuk will wait at her door, demanding you to open the door. Allow Kucuk to at least 5 minutes in piece, after which you may open the door.
-- If Kucuk didn't finish her wet food, you may move her plate to the Kitchen and give it to Pamuk.
-- Now you can give them dry food, give less to Pamuk since he has probably eaten more wet food already. As usual, keep them in separate rooms. 
-- After some time they'll meow, you may open the doors and take away any food Kucuk may have left. We don't want Pamuk to overeat.
-- After feeding in the evening, [you may open the window](#being-locked-outside)
-- At night, you may give them a little bit of dry food, so that they won't wake you up early in the morning.
+**To allow Kucuk to eat: First Pamuk's plate under the kitchen table, while he is eating, Kücük's plate under the chair in the bedroom.** 
 
+**I close the bedroom door right away and leave Kucuk alone for 5 minutes.**  
 
-**Rinse and change their water once a day. I do it at night, before sleeping**
+After 5 minutes, you may open bedroom door to let Pamuk eat Kucuk's leftovers.
 
-## Pamuk's medicine
+You may put the plates in the dishwasher. Don't worry about their smell, I'll take care of them later.
 
-You may give Pamuk his pill 3 times until I'm back. I'll remind you to give them. I crushed the pills and made a dust, and put them in little glasses, as in the picture below. You can pour it on his wet food.
+After they're done with the wet food, I give Kucuk more dry food than Pamuk:
 
+{%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.jpg" description="Dry food distribution. Pamuk ~30%, Kucuk ~70%" -%}
 
-{%- include image.html url="/assets/images/posts/cat-sitting/pamuk_medicine_glasses.jpg" description="Each glass contains medicine for two days" -%}
+**They'll need more dry food, if you're going to visit once a day.**
+
+**You may rinse & change their water, and leave without waiting for them to finish their dry food.**
 
 
-## Brushing
+[//]: # ()
+[//]: # (## Brushing)
 
-I've stopped flea drops because of health issues they've caused. Brushing them regularly keeps the flea away.
+[//]: # ()
+[//]: # (I've stopped flea drops because of health issues they've caused. Brushing them regularly keeps the flea away.)
 
-They may demand it. 
+[//]: # ()
+[//]: # (They may demand it. )
 
-Please brush them daily, after removing their collar.
+[//]: # ()
+[//]: # (Please brush them daily, after removing their collar.)
 
-**I'll be happy if you can keep me updated**
+[//]: # ()
+
+I'll be happy if you can keep me updated.
 
 ## **Thank you! :)**
