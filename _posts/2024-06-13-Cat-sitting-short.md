@@ -90,7 +90,7 @@ I pour thin layer of clumping litter as a substrate to the bottom tray to preven
 
 **This clumping litter shouldn't go into the toilet.** 
  
-
+Just removing the excess clumpy parts from the bottom tray, and adding some clumpy sand to bottom tray should be enough. I'll take care of deep cleaning. 
 
 ### Feeding
 
