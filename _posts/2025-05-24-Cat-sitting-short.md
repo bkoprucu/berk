@@ -114,7 +114,7 @@ Pamuk eats more wet food, so I share the pouch ~70% to Pamuk, ~30% to Kucuk:
 {%- include image.html url="/assets/images/posts/cat-sitting/wet_food_distribution.jpg" description="Wet food distribution. Pamuk eats ~70%, Kucuk ~30%" -%}
 
 
-I've put dust of Pamuk's asthma medicine pills in small glasses, shown in the picture below. Once a day (not on every meal), you may pour one glass on his food.
+I've put dust of Pamuk's asthma medicine pills in small glasses, shown in the picture below. Once a day, usually on evenings, you may pour one glass on his food.
 
 {%- include image.html url="/assets/images/posts/cat-sitting/pamuk_medicine_glasses.webp" description="Pamuk's daily asthma medicine in each glass" -%}
 
