@@ -8,34 +8,29 @@ permalink: "/other/cats/feeding.html"
 sidebar: [article-menu]
 ---
 
-<table>
-  <tr style="vertical-align: top">
-    <td>{%- include image.html url="/assets/images/posts/cat-sitting/pamuk.webp" -%}</td>
-    <td style="padding: 0 10px 0 20px; line-height: 1.5">
-      <h3>Pamuk</h3>
-      Male, 15 yo.<br>
-      Confident and smart.<br>
-      Doesn't like strangers, loves only me.<br>
-      Likes eating, going out, playing with Kücük.<br>
-      Has asthma and loss of teeth.<br>
-      Won't let Kücük eat, has to be fed separately.
-    </td>
-  </tr>
-  <tr style="vertical-align: top">
-     <td>{%- include image.html url="/assets/images/posts/cat-sitting/kucuk.webp" -%}</td>
-     <td style="padding: 0 10px 0 20px; line-height: 1.5">
-        <h3>Kücük</h3>
-        Female, 12 yo.<br>
-        Timid, never gets aggressive.<br>
-        Traumatized from her stray times.<br>
-        Likes dry food, affection, getting brushed.<br>
-        Hides under blankets or under the bed.<br>
-        Becomes lovely after she overcomes her fear.<br>
-        Needs to be alone in closed room to eat in piece.
-     </td>
-  </tr>
-</table>
 
+<h3>Pamuk</h3>
+
+{%- include image.html url="/assets/images/posts/cat-sitting/pamuk.webp" width="400px" -%}
+<div style="line-height: 1.7">
+Male, 15 yo.<br>
+Confident and smart.<br>
+Doesn't like strangers, loves only me.<br>
+Likes eating, going out, playing with Kücük.<br>
+Has asthma and loss of teeth.<br>
+Won't let Kücük eat, has to be fed separately.
+</div>
+<h3>Kücük</h3>
+{%- include image.html url="/assets/images/posts/cat-sitting/kucuk.webp" width="400px" -%}
+<div style="line-height: 1.7">
+Female, 12 yo.<br>
+Timid, never gets aggressive.<br>
+Traumatized from her stray times.<br>
+Likes dry food, affection, getting brushed.<br>
+Hides under blankets or under the bed.<br>
+Becomes lovely after she overcomes her fear.<br>
+Needs to be alone in closed room to eat in piece.
+</div>
 
 ## Dangers
 
@@ -77,11 +72,11 @@ Pan handle should be blocking the switch:
 
 ## Daily Routine
 
-Feel free to enter the apartment with your shoes. Cat's will make a mess anyway. I'll do a deep cleaning when I'm back.
+Feel free to enter the apartment with your shoes on. Cat's will make a mess anyway. I'll do a deep cleaning when I'm back.
 
 ### Litter Box
 
-For couple days, jsut throwing the poop to the toilet bowl and stirring the litter should be enough.
+For couple days, just throwing the poop to the toilet bowl and stirring the litter should be enough.
 
 Wooden pallets stuck on the poop dissolve into dust, won't clog the toilet.
 
@@ -112,11 +107,11 @@ Pamuk eats more wet food, so I share the pouch ~70% to Pamuk, ~30% to Kucuk:
 {%- include image.html url="/assets/images/posts/cat-sitting/wet_food_distribution.jpg" description="Wet food distribution. Pamuk eats ~70%, Kucuk ~30%" -%}
 
 
-I've put dust of Pamuk's asthma medicine pills in small glasses, shown in the picture below. You may pour one of it on his food.
+I've put dust of Pamuk's asthma medicine pills in small glasses, shown in the picture below. You may pour one glass on his food.
 
 {%- include image.html url="/assets/images/posts/cat-sitting/pamuk_medicine_glasses.webp" description="Pamuk's asthma medicine pill dust in each glass" -%}
 
-Optionally, a napkin under Pamuk's plate may help with his spilling habit. 
+Optionally, a napkin or newspapar under Pamuk's plate may help with his spilling habit. 
 
 **To allow Kucuk to eat: First Pamuk's plate under the kitchen table, while he is eating, Kücük's plate under the chair in the bedroom.** 
 
@@ -130,9 +125,11 @@ After they're done with the wet food, I give Kucuk more dry food than Pamuk:
 
 {%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.jpg" description="Dry food distribution. Pamuk ~30%, Kucuk ~70%" -%}
 
-**They'll need more dry food, if you're going to visit once a day.**
+**If you're going to visit only once a day, they'll need more dry food.**
 
-**You may rinse & change their water, and leave without waiting for them to finish their dry food.**
+**You may rinse & change their water, and leave the apartment without waiting for them to finish their dry food.**
+
+** Before leaving the apartment, make sure that the bathroom door is not closed**
 
 
 [//]: # ()
