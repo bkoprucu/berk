@@ -129,7 +129,7 @@ After they're done with the wet food, I give Kucuk more dry food than Pamuk:
 
 **You may rinse & change their water, and leave the apartment without waiting for them to finish their dry food.**
 
-**Make sure that the bathroom door is not closed, before leaving**
+**Before leaving, it is a good idea to check the bathroom door is not closed**
 
 
 [//]: # ()
