@@ -9,8 +9,7 @@ sidebar: [article-menu]
 ---
 
 
-<h3>Pamuk</h3>
-
+### Pamuk
 {%- include image.html url="/assets/images/posts/cat-sitting/pamuk.webp" width="400px" -%}
 <div style="line-height: 1.7">
 Male, 15 yo.<br>
@@ -20,7 +19,8 @@ Likes eating, going out, playing with Kücük.<br>
 Has asthma and loss of teeth.<br>
 Won't let Kücük eat, has to be fed separately.
 </div>
-<h3>Kücük</h3>
+
+### Kücük
 {%- include image.html url="/assets/images/posts/cat-sitting/kucuk.webp" width="400px" -%}
 <div style="line-height: 1.7">
 Female, 12 yo.<br>
@@ -47,6 +47,13 @@ They jump on it and may accidentally turn it on, potentially burn their paws.
 Pan handle should be blocking the switch:
 
 {%- include image.html url="/assets/images/posts/cat-sitting/stove.webp" description="Handle blocking the switch" height="350px" -%}
+
+### Dish sponge
+
+Kücük chews the dish sponge! 
+
+Keeping it in the sink prevents this. 
+
 
 [//]: # (### Being Locked Outside)
 
