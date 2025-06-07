@@ -29,7 +29,7 @@ Traumatized from her stray times.<br>
 Likes dry food, affection, getting brushed.<br>
 Hides under blankets or under the bed.<br>
 Becomes lovely after she overcomes her fear.<br>
-Needs to be alone in closed room to eat in piece.
+Needs to be alone in closed room to eat in peace.
 </div>
 
 ## Dangers
@@ -98,7 +98,7 @@ Just removing the excess clumpy parts from the bottom tray, and adding some clum
 
 ### Feeding
 
-**Tips below may help with keeping Pamuk from eating Kucuk's food.** 
+**Here's what I do to prevent Pamuk from eating Kucuk's food.** 
 
 One pouch for both of them, since Kucuk doens't eat much wet food:
 
