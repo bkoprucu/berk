@@ -50,10 +50,7 @@ Pan handle should be blocking the switch:
 
 ### Dish sponge
 
-Kücük chews the dish sponge! 
-
-Keeping it in the sink prevents this. 
-
+Kücük chews the dish sponge! That's why I keep it in the sink.
 
 [//]: # (### Being Locked Outside)
 
@@ -119,7 +116,6 @@ I've put dust of Pamuk's asthma medicine pills in small glasses, shown in the pi
 {%- include image.html url="/assets/images/posts/cat-sitting/pamuk_medicine_glasses.webp" description="Pamuk's daily asthma medicine in each glass" -%}
 
 
-
 Optionally, a napkin or newspaper under Pamuk's plate may help with his spilling habit. 
 
 **To allow Kucuk to eat: First Pamuk's plate under the kitchen table, while he is eating, Kücük's plate under the chair in the bedroom.** 
@@ -130,9 +126,17 @@ After 5 minutes, you may open bedroom door to let Pamuk eat Kucuk's leftovers.
 
 You may put the plates in the dishwasher. Don't worry about their smell, I'll take care of them later.
 
-After they're done with the wet food, I give Kucuk more dry food than Pamuk:
+
+After they're done with the wet food, I give them dry food. I find it easier to get them from these boxes, using the spoon:
+
+{%- include image.html url="/assets/images/posts/cat-sitting/food_boxes.webp" width="450px" -%}
+
+
+Kucuk hasn't eaten much wet food, so I give her more dry food than Pamuk:
+
 
 {%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.jpg" description="Dry food distribution. Pamuk ~30%, Kucuk ~70%" -%}
+
 
 **If you're going to visit only once a day, they'll need more dry food.**
 
