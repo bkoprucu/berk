@@ -165,13 +165,4 @@ I'll be happy if you can keep me updated.
 
 ## **Thank you! :)**
 
-### Some Pamuk and Kucuk stuff 
-
-
-![youtube](https://youtu.be/0XNZKE2T8D4)
-![youtube](https://youtube.com/shorts/EN0m4-Cs3wg)
-![youtube](https://youtu.be/bOTC7qd6dbs)
-
-{%- include image.html url="/assets/images/posts/cat-sitting/pamuk_.webp" -%}
-
-{%- include image.html url="/assets/images/posts/cat-sitting/kucuk_.webp" -%}
+[Some Pamuk and Kücük stuff](/other/cats/pamuk_kucuk)
