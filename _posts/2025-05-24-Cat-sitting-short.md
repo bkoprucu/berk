@@ -124,10 +124,12 @@ Optionally, a napkin or newspaper under Pamuk's plate may help with his spilling
 
 After 5 minutes, you may open bedroom door to let Pamuk eat Kucuk's leftovers.
 
-You may put the plates in the dishwasher. Don't worry about their smell, I'll take care of them later.
+To avoid washing dishes, I either rinse them and put in the dishwasher, or stack them in the sink and make them soak them with this diluted soap:
+
+{%- include image.html url="/assets/images/posts/cat-sitting/soap.webp" width="450px" -%}
 
 
-After they're done with the wet food, I give them dry food. I find it easier to get them from these boxes, using the spoon:
+After they're done with the wet food, I give them dry food. I find it easier to feed them from these boxes, using the spoon:
 
 {%- include image.html url="/assets/images/posts/cat-sitting/food_boxes.webp" width="450px" -%}
 
@@ -162,3 +164,14 @@ Kucuk hasn't eaten much wet food, so I give her more dry food than Pamuk:
 I'll be happy if you can keep me updated.
 
 ## **Thank you! :)**
+
+### Some Pamuk and Kucuk stuff 
+
+
+![youtube](https://youtu.be/0XNZKE2T8D4)
+![youtube](https://youtube.com/shorts/EN0m4-Cs3wg)
+![youtube](https://youtu.be/bOTC7qd6dbs)
+
+{%- include image.html url="/assets/images/posts/cat-sitting/pamuk_.webp" -%}
+
+{%- include image.html url="/assets/images/posts/cat-sitting/kucuk_.webp" -%}
