@@ -101,7 +101,7 @@ Give ~70% of the pouch to Pamuk, and ~30% to Küçük:
 - Open the door and move Kucuk's plate to the kitchen for Pamuk to eat her leftovers.
 - Give them kibble in separate rooms. Less for Pamuk:
 
-{%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.jpg" description="Kibble distribution: ~10% for Pamuk, ~90% for Kucuk" -%}
+{%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.webp" description="Dry food distribution: ~70% for Kücük, ~30% for Pamuk" -%}
 
 - After that you may take away whatever is left, and put in the cabinet. We don't want Pamuk to overeat Kucuk's leftover kibble.
 - After feeding, [you may open the window](#being-locked-outside)

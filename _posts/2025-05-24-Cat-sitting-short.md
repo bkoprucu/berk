@@ -137,12 +137,18 @@ After they're done with the wet food, I give them dry food. I find it easier to 
 Kucuk hasn't eaten much wet food, so I give her more dry food than Pamuk:
 
 
-{%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.jpg" description="Dry food distribution. Pamuk ~30%, Kucuk ~70%" -%}
+{%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.webp" description="Dry food distribution. Kücük ~70%, Pamuk ~30%" -%}
 
+### Water
+
+They've two white Ikea water bowls. They're picky about their water. 
+I let the tap run until it flows cold, before rinsing / refilling their bowls.    
+
+<br>
 
 **If you're going to visit only once a day, they'll need more dry food.**
 
-**You may rinse & change their water, and leave the apartment without waiting for them to finish their dry food.**
+**You may leave the apartment without waiting for them to finish their dry food.**
 
 **Before leaving, it is a good idea to check the bathroom door is not closed**
 
@@ -161,8 +167,8 @@ Kucuk hasn't eaten much wet food, so I give her more dry food than Pamuk:
 
 [//]: # ()
 
-I'll be happy if you can keep me updated.
+I'll be happy if you can keep me updated after each visit. Just a "Cat's are ok" will be sufficient.
 
 ## **Thank you! :)**
 
-[Some Pamuk and Kücük stuff](/other/cats/pamuk_kucuk)
+#### [Some Pamuk and Kücük stuff](/other/cats/pamuk_kucuk)

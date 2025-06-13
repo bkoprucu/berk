@@ -11,7 +11,10 @@ sidebar: [article-menu]
 
 ### Some Pamuk and Kucuk stuff
 
+
 ![youtube](https://youtu.be/0XNZKE2T8D4)
+
+{%- include image.html url="/assets/images/posts/cat-sitting/bedroom_window.webp" description="Bedroom window is a safe place for them to get some fresh air without going out" -%}
 
 ![youtube](https://youtube.com/embed/EN0m4-Cs3wg)
 
