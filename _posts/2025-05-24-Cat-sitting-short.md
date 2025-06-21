@@ -116,7 +116,12 @@ I've put dust of Pamuk's asthma medicine pills in small glasses, shown in the pi
 {%- include image.html url="/assets/images/posts/cat-sitting/pamuk_medicine_glasses.webp" description="Pamuk's daily asthma medicine in each glass" -%}
 
 
-Optionally, a napkin or newspaper under Pamuk's plate may help with his spilling habit. 
+I'm putting a piece of newspaper under their plate to contain the spill. You may replace them after each feeding.
+
+{%- include image.html url="/assets/images/posts/cat-sitting/pamuk_plate.webp" width="450px" description="Pamuk's plate. I replace the newspaper after feeding" -%}
+
+{%- include image.html url="/assets/images/posts/cat-sitting/kucuk_plate.webp" width="450px" description="Kucuk's plate. It is important to close the door and leave her alone" -%}
+
 
 **To allow Kucuk to eat: First Pamuk's plate under the kitchen table, while he is eating, Kücük's plate under the chair in the bedroom.** 
 
@@ -134,19 +139,18 @@ After they're done with the wet food, I give them dry food. I find it easier to 
 {%- include image.html url="/assets/images/posts/cat-sitting/food_boxes.webp" width="450px" -%}
 
 
-Kucuk hasn't eaten much wet food, so I give her more dry food than Pamuk:
+Kucuk doesn't eat as much wet food, therefore I give her more dry food:
 
 
 {%- include image.html url="/assets/images/posts/cat-sitting/dry_food_distribution.webp" description="Dry food distribution. Kücük ~70%, Pamuk ~30%" -%}
 
 ### Water
 
-They've two white Ikea water bowls. They're picky about their water. 
-I let the tap run until it flows cold, before rinsing / refilling their bowls.    
+Two white Ikea water bowls, one in the main room, beneath the chair, other in the bedroom. <br>
+
+They're picky about their water. I let the tap run until its cold, before rinsing / refilling their bowls.    
 
 <br>
-
-**If you're going to visit only once a day, they'll need more dry food.**
 
 **You may leave the apartment without waiting for them to finish their dry food.**
 
@@ -167,7 +171,7 @@ I let the tap run until it flows cold, before rinsing / refilling their bowls.
 
 [//]: # ()
 
-I'll be happy if you can keep me updated after each visit. Just a "Cat's are ok" will be sufficient.
+I'll be happy if you can keep me updated after each visit.
 
 ## **Thank you! :)**
 
