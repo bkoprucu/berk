@@ -80,7 +80,7 @@ Feel free to enter the apartment with your shoes on. Cat's will make a mess anyw
 
 ### Litter Box
 
-For couple days, just throwing the poop to the toilet bowl and stirring the litter should be enough.
+For two days, just throwing the poop to the toilet bowl and stirring the litter should be enough.
 
 Wooden pallets stuck on the poop dissolve into dust, won't clog the toilet.
 
@@ -88,13 +88,9 @@ The litter in the box should be shallow, only couple centimeters deep.
 
 **Cleaning the litter box:**
 
-The box has a bottom tray, which needs cleaning after three days, or when the level of litter dust in the bottom tray reaches the mesh (of top tray).
-
-I pour thin layer of clumping litter as a substrate to the bottom tray to prevent smell. You may take away the clumpy parts in the bottom tray, and put in a paper bag I've left in the bathroom. 
-
-**This clumping litter shouldn't go into the toilet.** 
- 
-Just removing the excess clumpy parts from the bottom tray, and adding some clumpy sand to bottom tray should be enough. I'll take care of deep cleaning. 
+I pour thin layer of clumping litter as a substrate to the bottom tray to prevent smell.<br>
+Every other day, you may remove the clumped pieces in the bottom tray using their shovel.<br>
+You may put them in one of the paper bags in the bathroom, which you can throw away in the silo on your way out. **Clumping litter shouldn't go into the toilet.** 
 
 ### Feeding
 
