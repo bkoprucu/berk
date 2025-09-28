@@ -51,6 +51,14 @@ Lombok leaves it to the developers to assess the value of each annotation. This 
 One solution can be to align the team on a common approach by having guidelines, such as "We are not using experimental features of Lombok", or encouraging deeper understanding of the tool.
 Alternatives like [AutoValue](https://github.com/google/auto) or [Immutables](https://immutables.github.io/) can also be considered.
 
+## Are we introducing maintenance debt?
+
+Aforementioned extralinguistic behavior of Lombok may (will) cause compatibility issues with future versions of Java. Does the potential maintenance improvement it provides justify the extra maintenance work it introduces?
+
+Besides that, having the difference between visible and running code can cause problems in debugging. Are we OK with that?
+
+The issues above can be resolved by using [delombok](https://projectlombok.org/features/delombok). However, can we apply it quickly enough to solve issues? If yes, are we willing to lose our commit history?
+
 
 ## Are multiple code manipulation tools in use?
 
