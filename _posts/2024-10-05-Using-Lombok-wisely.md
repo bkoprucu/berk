@@ -52,13 +52,15 @@ One solution can be to align the team on a common approach by having guidelines,
 Alternatives like [AutoValue](https://github.com/google/auto), [Immutables](https://immutables.github.io) or (my favorite) [record-builder](https://github.com/Randgalt/record-builder)  can also be considered.
 
 
-## Are we introducing maintenance debt?
+## Did we consider compatibility with future Java versions?
 
-Aforementioned extralinguistic behavior of Lombok may (will) cause compatibility issues with future versions of Java. Does the potential maintenance improvement it provides justify the extra maintenance work it introduces?
+Recent versions of Java is improving on integrity. This means that functionalities using the back doors of the platform are either no more allowed or provided with safer alternatives (like `sun.misc.Unsafe` replaced by `VarHandle`, `ByteBuffer` etc).
 
-Besides that, having the difference between visible and running code can cause problems in debugging. Are we OK with that?
+However, Lombok works by changing the abstract syntax tree (AST), which is not allowed by the Java Language Specification. 
 
-The issues above can be resolved by using [delombok](https://projectlombok.org/features/delombok). Can we apply it quick enough when solving issues?
+Considering that Java development team is [not fond of Lombok](https://www.google.com/search?q=brian+goetz+on+lombok), it may be wise to expect that later versions of Java to not provide a way for Lombok to continue working.
+
+When the time comes, using [delombok](https://projectlombok.org/features/delombok) may be necessary to remove it. Will we end up with a bloated codebase, if it has been overused? Would we have a better design and long term productivity if we consider safer alternatives early on? 
 
 
 ## Are multiple code manipulation tools in use?
