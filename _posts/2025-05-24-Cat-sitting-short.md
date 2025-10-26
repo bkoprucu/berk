@@ -4,6 +4,7 @@ categories: [Other]
 tags: [Cats]
 hide: [related, comments, navigator, share]
 hidden: 1
+sitemap: false
 permalink: "/other/cats/feeding.html"
 sidebar: [article-menu]
 ---

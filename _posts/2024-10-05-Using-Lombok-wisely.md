@@ -49,7 +49,7 @@ While some annotations can streamline development, others, like `@SneakyThrows` 
 Lombok leaves it to the developers to assess the value of each annotation. This can lead to unproductive debates or longer review times. Since the purpose of Lombok is to boost productivity, it is worth reflecting on these discussions.
 
 One solution can be to align the team on a common approach by having guidelines, such as "We are not using experimental features of Lombok", or encouraging deeper understanding of the tool.
-Alternatives like [AutoValue](https://github.com/google/auto), [Immutables](https://immutables.github.io) or (my favorite) [record-builder](https://github.com/Randgalt/record-builder)  can also be considered.
+Alternatives like [AutoValue](https://github.com/google/auto), [Immutables](https://immutables.github.io) or one of the builder only ones, like [jilt](https://github.com/skinny85/jilt) can also be considered.
 
 
 ## Did we consider compatibility with future Java versions?
