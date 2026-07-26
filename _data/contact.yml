@@ -5,8 +5,8 @@
   icon: 'far fa-envelope'
   noblank: true # open link in current tab
   prefix: 'mailto:'
-  url: 'berk@berksoftware.com'
-  title: 'berk@berksoftware.com'
+  url: 'info@berksoftware.com'
+  title: 'info@berksoftware.com'
 
 - type: linkedin
   # icon: 'fab fa-linkedin'
