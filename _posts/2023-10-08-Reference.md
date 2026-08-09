@@ -11,7 +11,7 @@ description: "Seo description"
 #excerpt_image_page_style: 'max-height: 150px'
 categories: [Other]
 tags: []
-hide: [related, navigator] # Can be header, navigator, related, comments. Implementation in post.html
+hide: [related, navigator] # Can be header, tags, navigator, related, comments. Implementation in post.html
 hidden: true # Hide from listing
 published: false
 permalink: "/reference.html"  # Custom url

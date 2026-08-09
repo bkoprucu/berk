@@ -26,13 +26,15 @@
     <span class="post-reading-time left-vsplit"><i class="far fa-clock"></i> {{ reading_time }}</span>
   </div>
 
-  {%- if page.tags.size > 0 -%}
-  <div class="post-tags">
-    {%- for tag in page.tags -%}
-    <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">{{tag}}</a>
-    {%- endfor -%}
-  </div>
-  {%- endif -%}
+  {%- unless hide contains 'tags' -%}
+    {%- if page.tags.size > 0 -%}
+      <div class="post-tags">
+        {%- for tag in page.tags -%}
+        <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">{{tag}}</a>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  {%- endunless -%}
 
   {%- if exc_img -%}
     <div>
