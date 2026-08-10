@@ -89,7 +89,7 @@ html {
   .site-brand-inner {
     font-size: 21px;
     @include media-query($on-palm) {
-      font-size: 19px;
+      font-size: 20px;
     }
     color: $header-text-color;
     padding: 17px 0;
@@ -447,6 +447,9 @@ html {
 
     img {
       margin: 50px auto 10px auto;
+      @include media-query($on-palm) {
+        margin: 25px auto 5px auto;
+      }
     }
 
     img:not(.emoji), svg, iframe {
@@ -454,12 +457,25 @@ html {
 //       max-height: 90vh;
     }
 
-    h2, h3, h4, h5, h6 {
-      margin: 60px 0 19px;
+    h2, h3 {
+      margin: 55px 0 18px;
+      @include media-query($on-palm) {
+        margin: 40px 0 14px;
+      }
+    }
+
+    h4, h5, h6 {
+      margin: 45px 0 18px;
+      @include media-query($on-palm) {
+        margin: 30px 0 14px;
+      }
     }
 
     p {
-      margin-bottom: 24px;
+      margin-bottom: 15px;
+      @include media-query($on-palm) {
+        margin-bottom: 10px;
+      }
     }
 
     a:hover {
@@ -467,7 +483,7 @@ html {
     }
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
   }
 
