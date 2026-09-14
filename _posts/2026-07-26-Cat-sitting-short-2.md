@@ -38,56 +38,68 @@ sidebar: [article-menu]
 </table>
 
 
-Hi Caitríona!
+Hi!
 
 Cats' needs have changed:
 - [**Litterbox:**](#litterbox) You can dump the bottom tray directly into the toilet daily.
 - [**Feeding:**](#feeding) Free feeding for Küçük; dry food in her raised bowl. Wet food for Pamuk, plate on a raised platform.
-- [**Medication:**](#medication) Pamuk needs one liquid medicine, every 12hours at the same time, 35-40 minutes after eating. Timing is important!
+- [**Medication:**](#medication) Pamuk needs one liquid medicine, every 12hours at the same time, ~40 minutes after eating. Timing is important!
 
 
-Details below:
 
-### Litterbox
+### Litterboxes
 
 - Pamuk demands the cardbox step next to the litterbox:
 
 {%- include image.html url="/assets/images/posts/cat-sitting/litter_box.webp" description="Pamuk's cardbox step" height="200px" -%}
 
-- I find it easiest, to directly dump the bottom tray to the toilet daily. I use the small shovel for this and stirring, since I break the meshed one:
-
-<img src="/assets/images/posts/cat-sitting/shovel.webp" height="170px">
+- I find it easiest, to directly dump the bottom tray to the toilet daily. **Though I'd flush twice**. I use the small shovel for dumping and stirring, since I break the meshed one.
+- Pamuk is picky of sandy / wet litter. I'd stir it well to let it flow to the bottom tray.
+  **It is important to change their water on every visit**
 
 ### Feeding
 
-- Pamuk's wet food on a fresh plate on this "raised platfom":
+- Pamuk's wet food on a fresh plate on this "raised platform". I'm using regular plates, instead of flat ones now:
 
-<img src="/assets/images/posts/cat-sitting/pamuks_food.webp" height="200px">
+{%- include image.html url="/assets/images/posts/cat-sitting/pamuks_food.webp" description="Regular plates are better than flat ones" height="220px" -%}
 
-- For Küçük, dry food from the box in the cabinet, in her raised bowl. Free feeding:
+
+- For Küçük, dry food from the box in the cabinet, in her raised bowl. 5 spoons, free feeding.
 
 <img src="/assets/images/posts/cat-sitting/kucuks_food.webp" height="250px">
 
-- You may close the bedroom door while Pamuk is eating. That way, he can't hide under the bed, before you give his medication.
+- You may close the bedroom door while Pamuk is eating. So he can't run away from his medication.
+- **It is important to change water on every visit**
 
-### Medication 
+### Medication
 
-- For Pamuk, twice a day, around same time (less than 15 minutes of deviation), 30 - 40 minutes after the meal
+- For Pamuk, twice a day, around same time (less than 15 minutes deviation), ~ 35 - 40 minutes after the meal
 
 - The bottle "Apelka":
 
 <img src="/assets/images/posts/cat-sitting/apelka_in_cabinet.webp" height="250px">
 
-- The syringe marked with black numbers (the other one is for water):
 
-{%- include image.html url="/assets/images/posts/cat-sitting/syringe_jar.webp" description="Merked syringe for Apelka, unmarked for water" height="250px" -%}
+- Shake before use:
 
-- 1mg Apelka into the marked syringe:
+<img src="/assets/images/posts/cat-sitting/apelka_shake.webp" height="250px">
+
+- The syringe:
+
+{%- include image.html url="/assets/images/posts/cat-sitting/syringe_jar.webp" description="Syringe for Apelka" height="250px" -%}
+
+- .80mg Apelka: 
 
 <img src="/assets/images/posts/cat-sitting/apelka_dosing_1mg.webp" height="350px">
 
-- Right after Apelka, water using the other (unmarked) syringe. I prepare the water beforehand and carry syringes with the jar to Pamuk.
-- Water in multiple small doses. If he resist, you may skip. 
+
+
+
+I hold his head firmly with my left hand, and apply syringe from the right side of his mouth, where his hasn't any teeth:
+
+<video controls width="100%">
+  <source src="/assets/videos/pamuk_apelka.mp4" type="video/mp4">
+</video>
 
 ### Dangers
 #### Bed
